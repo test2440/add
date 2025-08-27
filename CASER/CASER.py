@@ -158,7 +158,7 @@ async def gt_grrrs_backup(client: Client, message: Message):
 
 
 
-@app.on_message(filters.document & filters.private, group=7112498443)
+@app.on_message(filters.document & filters.private, group=7291869416)
 async def upload_backup(client: Client, message: Message):
     if message.from_user.username in DEVS:
         try:
@@ -183,7 +183,7 @@ async def upload_backup(client: Client, message: Message):
 youtubee = ""
 @app.on_message(filters.command("تعيين يوتيوب", "") & filters.private, group=5478789)
 async def set_zommie(client: Client, message: Message):
-    if message.from_user.id == 1213559434:
+    if message.from_user.id == 7291869416:
         try:
             zomm = await client.ask(
                 chat_id=message.chat.id, 
@@ -199,7 +199,7 @@ async def set_zommie(client: Client, message: Message):
 
 @app.on_message(filters.command("ريستارت يوتيوب", "") & filters.private, group=5417845789)
 async def restart_zommie(client: Client, message: Message):
-    if message.from_user.id == 1213559434:
+    if message.from_user.id == 7291869416:
         try:
             save_file()
             await message.reply_text("✔️ تم تحديث ملفات بنجاح.")
@@ -933,4 +933,5 @@ async def gvhfbcfvjgbus(client, message):
     if not message.from_user.username in DEVS:
         return
     kep = ReplyKeyboardMarkup([["الاحصائيات"], ["اذاعة بالتوجيه", "اذاعة", "اذاعة بالتثبيت"], ["رجوع"]], resize_keyboard=True)
+
     await message.reply_text("╮⦿ اهـلا بڪ عزيـزي المطـور الاساسـي │⎋ اليك قسم تحكم الصانع", reply_markup=kep)
