@@ -12,8 +12,8 @@ DEVS.append(ST)
 DEVS.append(LT)
 OWNER = "عباس"
 
-bot_token="توكن"
-bot_token2="كود جلسه بايروجرام "
+bot_token="7121027327:AAEVE4wgyK0LKfH62OZ36dPbwknj-nPkvrs"
+bot_token2="1BJWap1sBu4jlc1gdc77ZEfKecrk9xPJ5Kz8SpTnRpvrXhQXnxAAgXK_EY3XigWO-dQCPIfVd1HSP5TH_3bpobzrsNv0hZeE2fQ_UZwX4jZME13aEBwp4o1Z9XNPyRDWRChEzQhkwmx7y9grdsfD4B0TBntq67TidMU_TRnVt5CRELKAqkl4sQSCH8e2TcxFP0gbHrASvVwzDxp88VyhQOvWld3gRfOR0d43OoLnLPXUOJPGNdRSqNDrSV1kV0YNc1BQnsg-3iA7ZnqpqZY784p-84M-CZOmSErRUfcPDL0j_QuSh4AT1uDQLcYwch-EWggpR9vIg8RjmMh-gkzUX-FqPz_sJkN4="
 
 
 bot = Client("ITA", api_id=9671629, api_hash="be5c84e9dc1ca0e2b53d54b71e575124", bot_token=bot_token, plugins=dict(root="CASER"))
